@@ -1,0 +1,22 @@
+{
+  "name": "blueprintporfilo",
+  "version": "1.0.0",
+  "description": "the new verison of my profilo more dynamic and user-friendly",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thenriquez/BlueprintPortfilo.git"
+  },
+  "author": "terrence henriquez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thenriquez/BlueprintPortfilo/issues"
+  },
+  "homepage": "https://github.com/thenriquez/BlueprintPortfilo#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
