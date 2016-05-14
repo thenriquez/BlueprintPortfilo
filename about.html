@@ -1,195 +1,375 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang="en">
+
 <head>
-  <link rel="stylesheet" href="http:////netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" media="screen" title="no title" charset="utf-8">
-<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-<link rel="stylesheet" href="css/master.css" media="screen" title="no title" charset="utf-8">
-<link rel="stylesheet" href="css/skill.css" media="screen" title="no title" charset="utf-8">
-<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.3.0/font-mfizz.min.css" media="screen" title="no title" charset="utf-8">
 
-<body>
-  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="home.html">BlueprintNav</a>
-      </div>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="Profile.html">Profile</a><span class="hover"></span></li>
-        <li><a href="portfolio.html">Portfolio</a><span class="hover"></span></li>
-        <li><a href="contact.html">Contact</a><span class="hover"></span></li>
-      </ul>
-    </div>
-    </div>
-  </nav>
-  <div class="explain">
-    <h2>hover over the profile pic to reveal more information</h2>
-  </div>
-<div class="container2" class="profile">
-  <h1 class="name">About me</h1>
+    <title>Blueprint-Porfilo-Theme</title>
 
-  <div class="demoContainer">
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-      <div class="flipper">
-        <div class="front">
+    <!-- Custom CSS -->
+    <link href="css/blueprint.css" rel="stylesheet">
+    <link href="css/profileflip.css" rel="stylesheet">
 
-          <div class="profilePic">
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
-            <img src="img/profile.jpg"  class="img-responsive">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-          </div>
-          <h1>Terrence Henriquez.</h1>
-          <h2>Web Developer</h2>
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Profilo</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <ul class="nav navbar-nav">
+              <li><a href="index.html">Home</a><span class="hover"></span></li>
+              <li><a href="about.html">About</a><span class="hover"></span></li>
+              <li><a href="portfolio.html">Portfolio</a><span class="hover"></span></li>
+              <li><a href="contact.html">Contact</a><span class="hover"></span></li>
+            </ul>
+            <!-- /.navbar-collapse -->
         </div>
-        <div class="back">
-          <div class="profilePic">
+        <!-- /.container-fluid -->
+    </nav>
 
-            <img src="profile.jpg">
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">Hello Guys and Gals Iam Terrence Henriquez!</div>
 
-          </div>
-          <div class="title">
-             <h1>Terrence Henriquez</h1>
-          <h2>Web Developer</h2>
-          </div>
-
-          <p>I am an allround web developer with good knowledge of front-end and Back-end technologies. I love structure and order and I also stand for quality. I love spending time on fixing little details and optimizing web apps. Also I like working in a team, you'll learn faster and more. As the saying goes: 'two heads are better than one'. </p>
-
+                <a href="#create" class="page-scroll btn btn-xl">Learn More About me!</a>
+            </div>
         </div>
+    </header>
 
-      </div>
-    </div>
-  </div>
-</div>
-<div class="containerwrapper">
-  <section id="services">
+    <!-- Services Section -->
+    <section id="create">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">My Tools of Work</h2>
-                    <hr class="primary">
+                    <h2 class="section-heading">What i Create</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                      <i class="fa fa-4x fa-html5 wow bounceIn text-primary"></i>
-                        <h3>Html5</h3>
-                        <p class="text-muted">Without Html Mark Text my Pages wouldnt have a certain Structure.</p>
-                    </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-mobile fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Mobile</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-css3 wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                        <h3>Css</h3>
-                        <p class="text-muted">Css Gives the Looks and Beauty of my Pages and WebApps.</p>
-                    </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Responsive Design</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="devicon-javascript-plain wow bounceIn text-primary data-wow-delay=".2s"></i>
-                        <h3>JavaScript</h3>
-                        <p class="text-muted">javascript Is here with great function and Varbles.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                      <i class="devicon-jquery-plain  wow bounceIn text-primary" data-wow-delay=".4s"></i>
-                        <h3>Jquery</h3>
-                        <p class="text-muted">Not Only its Makes javascript understandable it also DOM transverses, event handling, AJAX interactions and animation. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                      <img src="https://node-os.com/images/nodejs.png" height="63px" width="120px">
-
-                        <h3>Node.Js</h3>
-                        <p class="text-muted">Using Node Js inables  Use Javascript in Terminal to create back-end Apps.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="devicon-mysql-plain wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                        <h3>MySql</h3>
-                        <p class="text-muted">Create Databases, Tables and Store Data.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                      <i class="devicon-angularjs-plain  wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                        <h3>AngularJs</h3>
-                        <p class="text-muted">Angular is Not Just an Libary its an Great Framework for creating  Front-end Web Apps.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="devicon-mongodb-plain  wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                        <h3>MongoDb</h3>
-                        <p class="text-muted">You have to make your websites with love these days!</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-
-                      <i class="devicon-illustrator-plain bounceIn text-primary" data-wow-delay=".1s"></i>
-                        <h3>Adobe Illistrator</h3>
-                        <p class="text-muted">Illstrator Helps me Create vector imaginery to use in My front end workflow.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-github wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                        <h3>Github</h3>
-                        <p class="text-muted">Always Commiting,Pushing,And Pulling my Code to showcase to my peers.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="devicon-bootstrap-plain wow bounceIn text-primary" data-wow-delay=".2s"></i>
-                        <h3>Bootstrap</h3>
-                        <p class="text-muted">Twitter Bootstrap allows me to Create Responsive Webpages with unique divs and classes.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="devicon-heroku-plain wow bounceIn text-primary" data-wow-delay=".3s"></i>
-                        <h3>Heroku</h3>
-                        <p class="text-muted">Without Heroku there no Server to Showcase my Work</p>
-                    </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-code fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Write Code</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                 </div>
             </div>
         </div>
     </section>
-    <div id="footer">
-  <div class="container">
-    <p class="text-muted">Copyright ©2016 Terrence Henriquez.</p>
-  </div>
-</div>
-<script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+    <div class="container2" class="profile">
 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script></script>
-<script src="js/script.js" charset="utf-8"></script>
+      <div class="demoContainer">
 
-<script src="js/transiton.js" charset="utf-8"></script>
+        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+          <div class="flipper">
+            <div class="front">
+
+              <div class="profilePic">
+
+                <img src="img/profile.jpg"  class="img-responsive">
+
+              </div>
+              <h1>Terrence Henriquez.</h1>
+              <h2>Web Developer</h2>
+            </div>
+            <div class="back">
+              <div class="profilePic">
+
+                <img src="profile.jpg">
+
+              </div>
+              <div class="title">
+                 <h1>Terrence Henriquez</h1>
+              <h2>Web Developer</h2>
+              </div>
+
+              <p>I am an allround web developer with good knowledge of front-end and Back-end technologies. I love structure and order and I also stand for quality. I love spending time on fixing little details and optimizing web apps. Also I like working in a team, you'll learn faster and more. As the saying goes: 'two heads are better than one'. </p>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio Grid Section -->
+
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">About</h2>
+                    <h3 class="section-subheading text-muted">Creativity is to think more efficiently.” Pierre Reverdy.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/2.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>2015-ongoing</h4>
+                                    <h4 class="subheading">Front-end</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">My work flow conist of using alot of css and html, must repectfully getting the right design. Creating mockups or just making it responsive.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/1.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>2015-ongoing</h4>
+                                    <h4 class="subheading">Back-end</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">I work</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/3.png" height="215" width="215" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>2015-ongoing</h4>
+                                    <h4 class="subheading">Database</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/4.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Forver</h4>
+                                    <h4 class="subheading">Creativity</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <h4>Allow me
+                                    <br>To Inspire
+                                    <br>You!</h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12 text-center">
+                  <h2 class="section-heading">Skills Of Nature</h2>
+                  <hr>
+                  <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+              </div>
+              <div class="container">
+              <div class="row">
+                  <div class="col-lg-3 col-md-6 text-center">
+                      <div class="service-box">
+                        <img class="img-circle img-responsive" src="img/about/html.png" height="215" width="215" alt="">
+                          <h3>Html5</h3>
+                          <p class="text-muted">Without Html Mark Text my Pages wouldnt have a certain Structure.</p>
+                      </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 text-center">
+                      <div class="service-box">
+                            <img class="img-circle img-responsive" src="img/about/css.png" height="215" width="215" alt="">
+                          <h3>Css</h3>
+                          <p class="text-muted">Css Gives the Looks and Beauty of my Pages and WebApps.</p>
+                      </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 text-center">
+                      <div class="service-box">
+                            <img class="img-circle img-responsive" src="img/about/javascript.png" height="215" width="215" alt="">
+                          <h3>JavaScript</h3>
+                          <p class="text-muted">javascript Is here with great function and Varbles.</p>
+                      </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 text-center">
+                      <div class="service-box">
+                          <img class="img-circle img-responsive" src="img/about/jquery.png" height="215" width="215" alt="">
+                          <h3>Jquery</h3>
+                          <p class="text-muted">Not Only its Makes javascript understandable it also DOM transverses, event handling, AJAX interactions and animation. </p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-3 col-md-6 text-center">
+                      <div class="service-box">
+                          <img class="img-circle img-responsive" src="img/about/nodejs.png" height="215" width="215" alt="">
+
+                          <h3>Node.Js</h3>
+                          <p class="text-muted">Using Node Js inables  Use Javascript in Terminal to create back-end Apps.</p>
+                      </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 text-center">
+                      <div class="service-box">
+                            <img class="img-circle img-responsive" src="img/about/mysql.png" height="215" width="215" alt="">
+                          <h3>MySql</h3>
+                          <p class="text-muted">Create Databases, Tables and Store Data.</p>
+                      </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 text-center">
+                      <div class="service-box">
+                          <img class="img-circle img-responsive" src="img/about/angular.png" height="215" width="215" alt="">
+                          <h3>AngularJs</h3>
+                          <p class="text-muted">Angular is Not Just an Libary its an Great Framework for creating  Front-end Web Apps.</p>
+                      </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 text-center">
+                      <div class="service-box">
+                            <img class="img-circle img-responsive" src="img/about/mongodb.png" height="215" width="215" alt="">
+                          <h3>MongoDb</h3>
+                          <p class="text-muted">You have to make your websites with love these days!</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-3 col-md-6 text-center">
+                      <div class="service-box">
+
+                          <img class="img-circle img-responsive" src="img/about/ai.png" height="215" width="215" alt="">
+                          <h3>Adobe Illistrator</h3>
+                          <p class="text-muted">Illstrator Helps me Create vector imaginery to use in My front end workflow.</p>
+                      </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 text-center">
+                      <div class="service-box">
+                            <img class="img-circle img-responsive" src="img/about/inkscape.png" height="215" width="215" alt="">
+                          <h3>Inkscape</h3>
+                          <p class="text-muted">After using linux for an while i find out inkscape is so useful and better than AI my opionion.</p>
+                      </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 text-center">
+                      <div class="service-box">
+                            <img class="img-circle img-responsive" src="img/about/bootstrap.png" height="215" width="215" alt="">
+                          <h3>Bootstrap</h3>
+                          <p class="text-muted">Twitter Bootstrap allows me to Create Responsive Webpages with unique divs and classes.</p>
+                      </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 text-center">
+                      <div class="service-box">
+                            <img class="img-circle img-responsive" src="img/about/github.png" height="215" width="215" alt="">
+                          <h3>Github</h3>
+                          <p class="text-muted">Github is savior i learned how to push and commit, but never push if you have junk code</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+
+
+
+    <!-- Contact Section -->
+
+
+
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/blueprint.js"></script>
+    <script src="js/transiton.js" charset="utf-8"></script>
 
 </body>
+
 </html>
