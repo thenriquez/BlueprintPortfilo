@@ -4,6 +4,7 @@ var path    = require("path");
 
 app.use ("/js", express.static("public/js"));
 app.use("/css", express.static("public/css"));
+app.use("/img", express.static("public/img"));
 
 app.get('/',function(req,res){
   res.sendFile(path.join(__dirname+'/index.html'));
