@@ -15,7 +15,7 @@ app.get('/',function(req,res){
 });
 // page routes
 app.get('/about',function(req,res){
-  res.sendFile(path.join(__dirname+'/about.html'));
+  res.sendFile(path.join(__dirname+'/index.html'));
 });
 
 app.get('/portfolio',function(req,res){
